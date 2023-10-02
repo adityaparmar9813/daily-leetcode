@@ -7,7 +7,7 @@ public:
             // Stop when we encounter the end of a word
             if(s[end] == ' ' || end == s.size()-1) {
                 int ptr = end-1;
-                // In case current word is the final word in the string
+                // In case the current word is the final word in the string
                 if(end == s.size()-1) ptr = end;
 
                 // Reverse the word
