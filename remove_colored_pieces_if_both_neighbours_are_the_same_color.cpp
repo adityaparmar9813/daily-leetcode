@@ -17,6 +17,7 @@ public:
             else {
                 // In case we encounter a B after a set of A's
                 if(aCount != 0) {
+                    // Number of moves Alice can make when he gets aCount A's in a row
                     aliceCount += max(aCount - 2, 0);
                     aCount = 0;
                 }
