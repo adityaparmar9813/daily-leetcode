@@ -32,4 +32,4 @@ func maxLength(arr []string) int {
 }
 
 // Time Complexity: O(2^n)
-// Space Complexity: O(2^n)
+// Space Complexity: O(2^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n)
