@@ -16,9 +16,9 @@ public:
         bool left = dfs(i, j-1, index+1, board, word);
         bool right = dfs(i, j+1, index+1, board, word);
 
-        bool ans = top || bottom || left || right;
-                   
+        bool ans = top || bottom || left || right;    
         board[i][j] = temp;
+
         return ans;
     }
     
@@ -32,7 +32,7 @@ public:
         }
         return false;
     }
-};
+}; 
 
 // Time Complexity : O(4^l * m * n)
 // Space Complexity : O(4^l)
