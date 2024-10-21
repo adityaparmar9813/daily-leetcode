@@ -69,3 +69,6 @@ class Solution {
 		return (st.top() == 't');
 	}
 };
+
+// Time Complexity : O(n)
+// Space Complexity : O(n)
