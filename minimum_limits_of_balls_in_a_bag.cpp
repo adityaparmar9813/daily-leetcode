@@ -9,10 +9,10 @@ class Solution {
 	}
 
 	int minimumSize(vector<int> &nums, int maxOperations) {
-		int n = nums.size();
-		int l = 1, r = 1e9, ans = 1e9;
+		int n = nums.size(), ans = 1e9;
+		int l = 1, r = 1e9,
 
-		while (l <= r) {
+			while (l <= r) {
 			int mid = l + (r - l) / 2;
 
 			if (check(mid, nums, maxOperations)) {
